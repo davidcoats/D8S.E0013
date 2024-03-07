@@ -1,0 +1,16 @@
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+
+
+@namespace P0004.Construction
+
+@*Only make components in *this* application assembly publically available (i.e. do not include additional assemblies).*@
+<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" />
+    </Found>
+    <NotFound>
+        <PageTitle>Not found</PageTitle>
+        <p role="alert">Sorry, there's nothing at this address.</p>
+    </NotFound>
+</Router>
