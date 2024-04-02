@@ -1,0 +1,5 @@
+[
+  "./../P0008/Components/**/*.razor",
+  "./../P0008.Construction.Client/Components/**/*.razor",
+  "./Components/**/*.razor"
+]

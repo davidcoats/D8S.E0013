@@ -1,0 +1,19 @@
+{
+  "name": "p0009",
+  "version": "0.0.1",
+  "description": "A blog (static HTML web application, with Tailwind CSS + Tailwind CSS typography).",
+  "main": "index.js",
+  "scripts": {
+    "tailwindcss": "npx tailwindcss -i ./source/css/tailwind.css -o ./wwwroot/css-out/tailwind.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Blog"
+  ],
+  "author": "David Coats",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "3.4.1",
+    "@tailwindcss/typography": "0.5.11"
+  }
+}

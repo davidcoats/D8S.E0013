@@ -15,8 +15,16 @@
     <RepositoryUrl>https://github.com/davidcoats/D8S.E0013.git</RepositoryUrl>
   </PropertyGroup>
 
+  <ItemGroup Label="Package References">
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.1" />
+  </ItemGroup>
+
   <ItemGroup>
     <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P0008.Construction.Client\P0008.Construction.Client.csproj" />
   </ItemGroup>
 
 </Project>

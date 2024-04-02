@@ -47,6 +47,8 @@ namespace P0004.Construction
 
             var app = builder.Build();
 
+            app.UseStaticFiles();
+
             app.MapFallbackToPage("/_Host");
 
             app.Run();

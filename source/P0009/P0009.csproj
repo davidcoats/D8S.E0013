@@ -15,8 +15,4 @@
     <RepositoryUrl>https://github.com/davidcoats/D8S.E0013.git</RepositoryUrl>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
-
 </Project>
