@@ -7,7 +7,7 @@ Project File:
 * Empty lines between group sections.
 * Labeled group sections.
 * Main property group
-	* OutputType Library (explicitly specified, even though library is the default option if unspecified)
+	* OutputType unspecified (because library is the default option if unspecified)
 	* netstandard2.1
 	* No warnings for numbers: 1573;1587;1591
 	* No implicit usings.

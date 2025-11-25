@@ -1,10 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!--A Windows Forms application.-->
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <NoWarn>1573;1587;1591</NoWarn>
+    <NoWarn>CA1860;CS1573;CS1587;CS1591;IDE0130</NoWarn>
   </PropertyGroup>
 
   <PropertyGroup Label="Package">

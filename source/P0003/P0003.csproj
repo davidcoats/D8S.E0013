@@ -1,9 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!--A static HTML website with Razor pages using Razor components for rendering.-->
 
   <PropertyGroup Label="Main">
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <NoWarn>1573;1587;1591</NoWarn>
+    <NoWarn>CA1860;CS1573;CS1587;CS1591;IDE0130</NoWarn>
   </PropertyGroup>
 
   <PropertyGroup Label="Package">
@@ -11,7 +12,7 @@
     <Authors>DCoats</Authors>
     <Company>Rivet</Company>
     <Copyright>Copyright © Rivet 2024</Copyright>
-    <Description>--- EXAMPLE DESCRIPTION ---</Description>
+    <Description>A static HTML website with Razor pages using Razor components for rendering.</Description>
     <RepositoryUrl>https://github.com/davidcoats/D8S.E0013.git</RepositoryUrl>
   </PropertyGroup>
 

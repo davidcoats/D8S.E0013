@@ -1,4 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+  <!--The construction WebAssembly Blazor components client project for a WebAssembly Blazor components library project.-->
 
   <PropertyGroup Label="Main">
     <TargetFramework>net8.0</TargetFramework>
